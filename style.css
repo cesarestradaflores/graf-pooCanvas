@@ -1,0 +1,20 @@
+/* Asegúrate de que el archivo se llame exactamente style.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #333; /* color de fondo como en la imagen */
+}
+
+canvas {
+  /* NO pongas borde aquí si quieres sólo el marco dibujado dentro del canvas.
+     Si prefieres, puedes comentar la siguiente línea. */
+  border: none;
+  display: block;
+  background: #2e2e2e; /* fondo del interior del canvas */
+}
